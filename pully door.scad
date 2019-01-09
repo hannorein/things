@@ -6,8 +6,8 @@ difference(){
     }
     union(){
         intersection(){
-                cylinder(5,d=5,[0,0,0],$fn=25);
-                translate([-2.5,-1.5,0]) cube([5,3,5]);
+                cylinder(5,d=5.5,[0,0,0],$fn=25);
+                translate([-3,-1.75,0]) cube([6,3.5,5]);
         };
         difference(){
             translate([0,0,1]) cylinder(3,d=30,[0,0,0],$fn=25);
